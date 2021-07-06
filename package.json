@@ -4,7 +4,7 @@
   "description": "NuxtJS Yandex.Metrika Module/Plugin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xrei/nuxt-yandex-metrica.git"
+    "url": "git+https://github.com/xrei/nuxt-yandex-metrica.git"
   },
   "main": "lib/index.js",
   "scripts": {
@@ -12,31 +12,45 @@
   },
   "author": "rei",
   "contributors": [
-    {
-      "name": "Ruslan Aliev",
-      "email": "rkaliev1988@gmail.com"
-    },
-    {
-      "name": "rei",
-      "email": "romanrei.dev@gmail.com"
-    }
+    "Ruslan Aliev <rkaliev1988@gmail.com>",
+    "rei <romanrei.dev@gmail.com>"
   ],
   "files": [
     "lib"
   ],
   "keywords": [
-    "nuxt.js", "nuxtjs", "analytics",
-    "metrics", "metrika", "yandex",
-    "метрики", "метрика", "яндкес",
-    "яндекс метрика", "я.метрика",
-    "модуль", "плагин",
-    "yandex metrika", "yandex-metrika", "module", "plugin",
-    "javascript", "js",
-    "front-end", "frontend",
+    "nuxt.js",
+    "nuxtjs",
+    "analytics",
+    "metrics",
+    "metrika",
+    "yandex",
+    "метрики",
+    "метрика",
+    "яндкес",
+    "яндекс метрика",
+    "я.метрика",
+    "модуль",
+    "плагин",
+    "yandex metrika",
+    "yandex-metrika",
+    "module",
+    "plugin",
+    "javascript",
+    "js",
+    "front-end",
+    "frontend",
     "web"
   ],
   "publishConfig": {
     "access": "public"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xrei/nuxt-yandex-metrica/issues"
+  },
+  "homepage": "https://github.com/xrei/nuxt-yandex-metrica#readme",
+  "directories": {
+    "lib": "lib"
+  }
 }
